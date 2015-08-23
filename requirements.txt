@@ -1,0 +1,11 @@
+# Python Imaging Library
+pillow
+
+# Django Web Framework
+django
+
+# Django REST Framework
+djangorestframework
+
+# Swagger documentation for Django REST
+django-rest-swagger

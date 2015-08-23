@@ -1,0 +1,42 @@
+{% load static %}
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>My Shop</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+        <link rel="stylesheet" type="text/css" href="{% static 'css/shop.css' %}">
+    </head>
+    <body class="container-fluid">
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="row">
+            <div class="col-md-12 ">
+                <h1>My Shop</h1>
+
+                {% block content %}
+                {% endblock %}
+            </div>
+        </div>
+
+        <div id="footer" class="row">
+            <div class="col-md-12">
+                <div class="text-center">
+                    <p>&nbsp;</p>
+                    <p>Rapid Prototyping with Python</p>
+                    <p><a href="https://twitter.com/renyikhor">@renyikhor</a> | <a href="https://twitter.com/hashtag/pyconmy2015?src=hash">#pyconmy2015</a></p>
+                </div>
+            </div>
+        </div>
+
+        <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    </body>
+</html>

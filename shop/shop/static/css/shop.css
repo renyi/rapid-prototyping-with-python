@@ -1,0 +1,21 @@
+html, body, a, a:hover {
+    color: #666;
+}
+
+body {
+    background-color: #EEE;
+}
+
+a {
+    font-weight: 600;
+    text-decoration: none !important;
+}
+
+#footer {
+    padding: 10px;
+}
+
+#product_list {
+    padding: 10px;
+    box-shadow: 1px 1px 5px 0px rgba(102,102,102,1);
+}

@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+<div id="product_list">
+    <h3>Latest Products</h3>
+
+    <div class="row">
+    {% for product in object_list %}
+    <div class="col-md-3">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <h4>{{ product.name }}</h4>
+                {% if product.image %}
+                <p>
+                <img src="{{ product.image.url }}" height="100" width="100" class="img-rounded">
+                </p>
+                {% endif %}<br>
+                {{ product.description }}
+                {# <p><i>RM {{ product.price|floatformat:2 }}</i></p> #}
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+    </div>
+</div>
+{% endblock %}
