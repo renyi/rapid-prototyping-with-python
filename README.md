@@ -36,6 +36,13 @@ Setting up the environment
     $ python manage.py runserver
     ```
 
+    Note: If you're running this for the first time, you'll need to create the database and run schemamigration.
+
+    ```
+    $ python manage.py syncdb
+    $ python manage.py migrate
+    ```
+
 
 5. To run the kivy app
 
