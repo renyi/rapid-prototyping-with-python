@@ -27,7 +27,7 @@ Setting up the environment
     $ pip install cython kivy
     ```
 
-    Note: If you're using homebrew, pip install will most likely fail. If you can't sort out the Cython version, just install the binary from here, <http://kivy.org/docs/installation/installation-macosx.html>.
+    Note: If you're using homebrew on Mac OS X, pip install will most likely fail. If you can't sort out the Cython version, just install the binary from here, <http://kivy.org/docs/installation/installation-macosx.html>.
 
 
 4. To run the django app
